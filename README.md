@@ -37,7 +37,7 @@ Where:
 
 - `csv1` : Path to the first CSV file. (required)
 - `csv2` : Path to the second CSV file. (required)
-- `--name` : Name of the output file for matched rows. Defaults to 'combined.csv'. (optional)
+- `--name` : Name of the output file for matched rows. Defaults to 'merged.csv'. (optional)
 - `--path` : Directory to save the output files. Defaults to the current directory. (optional)
 - `--on` : Column to merge on. Defaults to 'email'. (optional)
 
