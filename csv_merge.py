@@ -6,7 +6,7 @@ import os
 parser = argparse.ArgumentParser(description='Combine two CSV files.')
 parser.add_argument('csv1', type=str, help='Path to the first CSV file')
 parser.add_argument('csv2', type=str, help='Path to the second CSV file')
-parser.add_argument('--name', type=str, default='combined.csv', help='Name of the output CSV file for matched rows')
+parser.add_argument('--name', type=str, default='merged.csv', help='Name of the output CSV file for matched rows')
 parser.add_argument('--path', type=str, default='.', help='Output directory for new CSV files')
 parser.add_argument('--on', type=str, default='email', help='Column to merge on')
 
